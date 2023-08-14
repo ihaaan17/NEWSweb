@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Playfair+Display:ital@0;1&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+body{
+     font-family: "Playfair Display",sans-serif;
+     color: black;
+    
+ }
+ 
+p{
+    font-family: "Mukta",sans-serif;
+    color: aliceblue;
+    line-height: 1.4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    
+    list-style:none ;
+}
+
+.flex{
+    display : flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 11800px ;
+    overflow:hidden;
+
+}
+nav {
+    background-color:black;
+    box-shadow: 0 0 4px #bbd0e2;
+    top:0;
+    z-index: 99;
+    left:0 ;
+    right:0;
+    
+}
+.nav1{
+    height:98px;
+    
+    gap: 150px;
+    justify-content: space-between;
+    padding-block: 8px;
+}
+.logonewz img{
+    margin-top: -1px;
+    margin-left: 104px;
+    margin-right:50px;
+    margin-bottom: -3px;
+    
+}
+.Searchbar{
+   font-size: 13px;
+    width:50px;
+   height:50px;
+   gap:8px;
+   margin-right: 400px;
+
+}
+.newsinput{
+    font-size: 23px;
+}
+
+.nav-links ul{
+    height: 265px;
+    margin-left: -330px;
+    background-color: black;
+    box-sizing: border-box;
+    font-size: 30px;
+    color:white;
+    left: 20px;
+    gap:46px;
+
+}
+.navitem.active
+{
+    color:grey
+}
+.hover-link{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.hover-link:hover{
+    font-size: 50;
+    transform: translateY(-7px);
+    color:aliceblue;
+    text-shadow: #bbd0e2; 
+}
+
+.newsinput{
+    width:200px;
+    font-family: "Playfair Display",sans-serif;
+    height:100%;
+    padding-inline:12px;
+    border-radius:7px;
+    border: 2px solid slategray;
+}
+.search-btn{
+    font-size: 18px;
+    height:40px;
+    background-color: gray;
+    color:white;
+    font-family: "Playfair Display",sans-serif;
+    padding:1px 24px;
+    border:none;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search-btn:hover{
+    background-color: rgb(63, 61, 61);
+
+}
+
+main{
+    background-color: black;
+    padding-block:20px;
+    margin-top:-2px;
+
+}
+
+.cards-container{
+    margin-right: 60px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+}
+.card{
+    background-color: gray;
+    width:360px;
+    min-height: 300px;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow:hidden;
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    box-shadow: 10px 20px 5px rgb(78, 77, 77) ;
+    transform: translateY(-7px);
+}
+ 
+.card-header img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+.card-content{
+    padding: 12px;
+}
+.news-source{
+    margin-block: 12px;
+}
